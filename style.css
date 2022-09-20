@@ -1,0 +1,132 @@
+textarea {
+  width: 700px;
+  height: 100px;
+  resize: none;
+}
+
+.activeShift {
+  background-color: #786fa6;
+  border: solid 1px red !important;
+}
+
+.active {
+  background-color: #786fa6;
+}
+
+.language {
+  font-size: 18px;
+  width: 200px;
+  height: 30px;
+  background-color: #f7d794;
+  margin: 2% auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+
+.textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-writing-mode: horizontal-tb !important;
+  writing-mode: horizontal-tb !important;
+}
+
+.alwaysshift {
+  position: absolute;
+  margin: 119px 0 0 86px;
+  border: none;
+  background: white;
+}
+
+.key-def {
+  margin: 3px;
+  width: 53px;
+  height: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+
+#keyboard {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.info {
+  font-size: 18px;
+  width: 250px;
+  height: 30px;
+  background-color: #f7d794;
+  margin: 2% auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+div[data="8"] {
+  width: 110px;
+}
+
+div[data="9"] {
+  width: 93px;
+}
+
+div[data="32"] {
+  width: 295px;
+}
+
+div[data="16"] {
+  width: 112px;
+}
+
+div[data="228"] {
+  width: 112px;
+}
+
+div[data="20"] {
+  width: 100px;
+}
+
+div[data="220"] {
+  width: 70px;
+}
+
+div[data="13"] {
+  width: 124px;
+}
